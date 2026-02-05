@@ -1,11 +1,10 @@
-services:
-  # Database
-  - type: database
-    name: pedidosweb-db
+databases:
+  - name: pedidosweb-db
     databaseName: pedidosweb
     user: postgres
     plan: free
 
+services:
   # Backend
   - type: web
     name: pedidos-back
