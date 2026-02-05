@@ -1,7 +1,6 @@
 databases:
   - name: pedidosweb-db
     databaseName: pedidosweb
-    user: postgres
     plan: free
 
 services:
